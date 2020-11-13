@@ -19,7 +19,7 @@ class Main extends Component {
                             <label className="form-check-label" htmlFor="check">Keep me singed in</label>
                         </div>
                         <button className="btn btn-lg btn-success btn-block mb-3" type="submit">Signin to coderX</button>
-                        <p><a href="#" className="text-dark pr-5">Forgot username?</a><a href="#" className="text-dark">Forgot password?</a></p>
+                        <p><a href={'getusername'} className="text-dark pr-5">Forgot username?</a><a href={'getpass'} className="text-dark">Forgot password?</a></p>
                     </form>
                 </div>
 
